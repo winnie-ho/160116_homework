@@ -12,7 +12,7 @@ var printName = function() {
 
 printName();
 
-```It will print out "My name is Keith"
+```ANSWER: It will print out "My name is Keith"
 
 
 
@@ -27,7 +27,7 @@ var result = function() {
 
 console.log(result());
 
-```It will print out the result which is 3.
+```ANSWER: It will print out: 3
 
 
 
@@ -44,7 +44,7 @@ var listAnimals = function() {
 
 listAnimals();
 
-```It will print out: 
+```ANSWER: It will print out: 
 0: Ducks
 1: Dogs
 2: Lions
@@ -67,9 +67,10 @@ var allSuspects = function() {
 
 allSuspects();
 console.log( 'Suspect three is:' + suspectThree );
-```It will print out:
+
+```ANSWER: It will print out:
 Suspects include: Jay, Val, Harvey, Rick
-Suspect three is: Keith
+Suspect three is:Keith
 
 
 
@@ -92,7 +93,9 @@ var detectiveInfo = function() {
 };
 
 console.log(detectiveInfo());
-```It will print out Poirot
+
+```ANSWER: It will print out:
+Poirot
 
 
 
@@ -112,8 +115,10 @@ var outerFunction = function() {
 }
 
 outerFunction();
+
 console.log('the murderer is ', murderer);
-```It will print out:
+
+```ANSWER: It will print out:
 the murderer is valerie
 
 ### Episode 7 - Make up your own episode/s!
@@ -140,4 +145,4 @@ function whoDidIt (suspects){
   console.log ("Sherlock deduces that", suspects[1], "blew up Westminster");
 }
 
-
+whoDidIt(suspects);
